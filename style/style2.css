@@ -17,6 +17,7 @@
 
     --font-padrao: Arial, Verdana, Helvetica, sans-serif;
     --font-destaque: 'Bebas Neue', cursive;
+    
 }
 
 *{
@@ -54,10 +55,11 @@ header > h1{
 header > p{
     font-family: var(--font-padrao);
     font-size: 1em;
+    font-weight: 500;
     max-width: 600px;
     margin: auto;
     padding: 0px 10px 20px 10px;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.281);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.281);
 }
 
 nav{
